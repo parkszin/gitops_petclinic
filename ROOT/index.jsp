@@ -24,7 +24,8 @@ response.setCharacterEncoding("UTF-8");
 
         body {
             font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            /* background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); */
+            background: linear-gradient(135deg, #00ff00 0%, #2a5298 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -279,7 +280,7 @@ response.setCharacterEncoding("UTF-8");
         <div class="logo">3TIER</div>
         <h1>3Tier Architecture Demo</h1>
         <p class="subtitle">
-            현대적인 웹 애플리케이션 아키텍처를 체험해보세요<br>
+            현대적인 웹 애플리케이션 아키텍처를 체험해보세요 녹색으로 수정<br>
             <strong>Nginx + Tomcat + AWS RDS MySQL</strong> 연동 시스템
         </p>
 
